@@ -3,7 +3,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Link } from "react-router-dom"
 import { ArrowRight, Users, Award, BookOpen, Heart, Target, Eye } from "lucide-react"
-import heroImage from "@/assets/hero-image.jpg"
 
 export default function Home() {
   const stats = [
@@ -23,12 +22,12 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroImage})` }}
+          style={{ backgroundImage: `url('https://i.ibb.co/7JwcyFYB/15-1280x963.jpg')` }}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-primary/90 to-brand-secondary/80" />
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-primary/60 to-brand-secondary/60" />
         </div>
         
         <div className="relative z-10 container text-center text-white">
@@ -48,7 +47,7 @@ export default function Home() {
                 Learn About Us <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-brand-primary">
+            <Button asChild variant="outline" size="lg" className="border-white bg-transparent text-white hover:bg-white hover:text-brand-primary">
               <Link to="/donate">
                 Support Our Mission
               </Link>
@@ -188,7 +187,7 @@ export default function Home() {
                 Donate Now
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-brand-primary">
+            <Button asChild variant="outline" size="lg" className="border-white bg-transparent text-white hover:bg-white hover:text-brand-primary">
               <Link to="/contact">
                 Get Involved
               </Link>

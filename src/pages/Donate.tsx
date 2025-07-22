@@ -15,15 +15,15 @@ export default function Donate() {
       bank: "First Bank of Nigeria",
       accountName: "Charles Daniel Educational Support Foundation",
       accountNumber: "3147893456",
-      sortCode: "011151003",
+      sortCode: "",
       currency: "NGN"
     },
     {
       bank: "Royal Bank of Canada (RBC)",
       accountName: "Charles Daniel Educational Support Foundation",
       accountNumber: "1002-345-6789",
-      transitNumber: "00001",
-      institutionNumber: "003",
+      transitNumber: "",
+      institutionNumber: "",
       currency: "CAD"
     }
   ]
@@ -362,11 +362,11 @@ export default function Donate() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-white text-brand-primary hover:bg-gray-100">
-              <a href="mailto:charlesdanielfoundation@gmail.com?subject=Donation Inquiry">
+              <a href="mailto:receipts@charlesdanielesf.org?subject=Donation Receipt Request">
                 Get Donation Receipt
               </a>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-brand-primary">
+            <Button asChild variant="outline" size="lg" className="border-white bg-transparent text-white hover:bg-white hover:text-brand-primary">
               <a href="/contact">
                 Contact Us
               </a>

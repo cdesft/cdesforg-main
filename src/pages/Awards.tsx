@@ -15,10 +15,10 @@ export default function Awards() {
       type: "Student Awards",
       icon: Trophy,
       images: [
-        "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=600&fit=crop&crop=center"
+        "https://charlesdanielesf.org/assets/images/charlesdanielsedusupport6-2000x1325-800x530.jpg?w=800&h=600&fit=crop&crop=center",
+        "https://charlesdanielesf.org/assets/images/charlesdanielsedusupport13-2000x1325-800x530.jpg?w=800&h=600&fit=crop&crop=center",
+        "https://charlesdanielesf.org/assets/images/charlesdanielsedusupport20-2000x1325-800x530.jpg?w=800&h=600&fit=crop&crop=center",
+        "https://charlesdanielesf.org/assets/images/charlesdanielsedusupport26-2000x1325-800x530.jpg?w=800&h=600&fit=crop&crop=center"
       ]
     },
     {
@@ -30,10 +30,10 @@ export default function Awards() {
       type: "School & Student Recognition",
       icon: Award,
       images: [
-        "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=600&fit=crop&crop=center"
+        "https://charlesdanielesf.org/assets/images/14-1-1080x810-800x600.jpg?w=800&h=600&fit=crop&crop=center",
+        "https://charlesdanielesf.org/assets/images/13-1080x810-800x600.jpg?w=800&h=600&fit=crop&crop=center",
+        "https://charlesdanielesf.org/assets/images/2-1080x810-800x600.jpg?w=800&h=600&fit=crop&crop=center",
+        "https://charlesdanielesf.org/assets/images/19-810x1080-800x1067.jpg?w=800&h=600&fit=crop&crop=center"
       ]
     },
     {
@@ -45,10 +45,10 @@ export default function Awards() {
       type: "Partnership Award",
       icon: Star,
       images: [
-        "https://images.unsplash.com/photo-1523050854058-8df90110c9d1?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&h=600&fit=crop&crop=center",
-        "https://images.unsplash.com/photo-1562774053-701939374585?w=800&h=600&fit=crop&crop=center"
+        "https://charlesdanielesf.org/assets/images/14-1020x768-800x602.jpg?w=800&h=600&fit=crop&crop=center",
+        "https://charlesdanielesf.org/assets/images/12-1280x854-800x534.jpg?w=800&h=600&fit=crop&crop=center",
+        "https://charlesdanielesf.org/assets/images/5-1280x854-800x534.jpg?w=800&h=600&fit=crop&crop=center",
+        "https://charlesdanielesf.org/assets/images/1-1280x854-800x534.jpg?w=800&h=600&fit=crop&crop=center"
       ]
     }
   ]
@@ -215,7 +215,7 @@ export default function Awards() {
                 Submit Nomination
               </a>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-brand-primary">
+            <Button asChild variant="outline" size="lg" className="border-white bg-transparent text-white hover:bg-white hover:text-brand-primary">
               <a href="/contact">
                 Learn More
               </a>

@@ -224,7 +224,7 @@ export default function About() {
                 Support Our Mission
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-brand-primary">
+            <Button asChild variant="outline" size="lg" className="border-white bg-transparent text-white hover:bg-white hover:text-brand-primary">
               <Link to="/contact">
                 Get In Touch
               </Link>

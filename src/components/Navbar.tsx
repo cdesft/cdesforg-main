@@ -45,9 +45,6 @@ export function Navbar() {
         <div className="mr-4 hidden md:flex">
           <Link to="/" className="mr-6 flex items-center space-x-2">
             <img src={logo} alt="CDESF Logo" className="h-10 w-10" />
-            <span className="hidden font-bold sm:inline-block text-brand-primary">
-              CDESF
-            </span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             {navigation.map((item) => (
@@ -103,7 +100,6 @@ export function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               <img src={logo} alt="CDESF Logo" className="h-8 w-8" />
-              <span className="font-bold text-brand-primary">CDESF</span>
             </Link>
             <div className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
               <div className="flex flex-col space-y-3">
@@ -149,7 +145,6 @@ export function Navbar() {
           <div className="w-full flex-1 md:w-auto md:flex-none">
             <Link to="/" className="flex items-center space-x-2 md:hidden">
               <img src={logo} alt="CDESF Logo" className="h-8 w-8" />
-              <span className="font-bold text-brand-primary">CDESF</span>
             </Link>
           </div>
           <nav className="flex items-center space-x-2">

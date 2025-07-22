@@ -7,17 +7,31 @@ import { Mail, Linkedin, Users, Award, BookOpen, Heart } from "lucide-react"
 export default function Team() {
   const teamMembers = [
     {
+      name: "Charles Daniel",
+      role: "Executive President/Founder",
+      image: "https://i.ibb.co/pjF0kW0t/cd.jpg",
+      bio: "Seasoned Project Management Consultant | African Investment Advisor.",
+      achievements: [],
+      email: "president@charlesdanielesf.org"
+    },
+    {
+      name: "Boma Charles-Daniel",
+      role: "Executive Vice President/Co-Founder",
+      image: "https://southernbasin.com/uploads/bcd.jpg?w=400&h=400&fit=crop&crop=face",
+      bio: "",
+      achievements: [],
+      email: "vp@charlesdanielesf.org"
+    },
+
+    {
       name: "Diepreye David Charles-Daniel",
-      role: "President & Founder",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
-      bio: "Nigerian born Nigeria and Global Mathematics Champion and multiple awards Winner. Graduated from Graceland International Schools, Port Harcourt Nigeria, and is currently a Software Engineering student at the University of Alberta, Canada.",
+      role: "Executive Director, Canada",
+      image: "https://i.ibb.co/pjPnbqkx/diepreye-davidcharles-daniel-1400x1750.jpg",
       achievements: [
-        "Global Mathematics Champion",
-        "Multiple Award Winner",
+        "Global Mathematics Champion & Multiple Award Winner",
         "Software Engineering Student - University of Alberta",
-        "Graceland International Schools Graduate"
       ],
-      email: "president@charlesdanielfoundation.com"
+      email: "director@charlesdanielesf.org"
     }
   ]
 
@@ -98,11 +112,11 @@ export default function Team() {
           </div>
 
           {teamMembers.map((member, index) => (
-            <Card key={index} className="max-w-4xl mx-auto overflow-hidden">
-              <div className="grid lg:grid-cols-3 gap-0">
+            <Card key={index} className="max-w-4xl mb-4 mx-auto overflow-hidden">
+              <div className="grid lg:grid-cols-3 gap-0 max-h-[300px]">
                 {/* Photo */}
                 <div className="lg:col-span-1">
-                  <div className="aspect-square lg:aspect-auto lg:h-full overflow-hidden">
+                  <div className="aspect-square  lg:aspect-auto lg:h-full overflow-hidden">
                     <img 
                       src={member.image} 
                       alt={member.name}
@@ -122,7 +136,7 @@ export default function Team() {
                     {member.bio}
                   </p>
                   
-                  <div className="mb-6">
+                  {member.achievements.length != 0 ? <div className="mb-6">
                     <h4 className="font-semibold mb-3">Key Achievements:</h4>
                     <ul className="space-y-2">
                       {member.achievements.map((achievement, achievementIndex) => (
@@ -132,7 +146,7 @@ export default function Team() {
                         </li>
                       ))}
                     </ul>
-                  </div>
+                  </div> : ""}
                   
                   <div className="flex items-center space-x-4">
                     <Button variant="outline" size="sm" asChild>
@@ -219,8 +233,8 @@ export default function Team() {
                 Get Involved
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-brand-primary">
-              <a href="mailto:charlesdanielfoundation@gmail.com">
+            <Button asChild variant="outline" size="lg" className="border-white bg-transparent text-white hover:bg-white hover:text-brand-primary">
+              <a href="mailto:">
                 Volunteer With Us
               </a>
             </Button>

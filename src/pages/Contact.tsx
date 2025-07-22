@@ -52,7 +52,7 @@ export default function Contact() {
       location: "Nigeria Office",
       address: "11D Circular Road, Presidential Estate, Port Harcourt, Nigeria",
       phones: ["+234 803 316 8956", "+234 803 390 8540"],
-      email: "charlesdanielfoundation@gmail.com",
+      email: "office-ng@charlesdanielesf.org",
       hours: "Monday - Friday: 9:00 AM - 5:00 PM",
       icon: MapPin,
       color: "text-green-600"
@@ -61,7 +61,7 @@ export default function Contact() {
       location: "Canada Office", 
       address: "11540 78 Ave NW, Edmonton AB T6G 0N5, Canada",
       phones: ["+1 587-594-6476"],
-      email: "charlesdanielfoundation@gmail.com",
+      email: "office-cad@charlesdanielesf.org",
       hours: "Monday - Friday: 9:00 AM - 5:00 PM (MST)",
       icon: MapPin,
       color: "text-blue-600"
@@ -73,8 +73,8 @@ export default function Contact() {
       icon: Mail,
       title: "Email Us",
       description: "Send us an email for general inquiries",
-      contact: "charlesdanielfoundation@gmail.com",
-      action: "mailto:charlesdanielfoundation@gmail.com"
+      contact: "hello@charlesdanielesf.org",
+      action: "mailto:hello@charlesdanielesf.org"
     },
     {
       icon: Phone,

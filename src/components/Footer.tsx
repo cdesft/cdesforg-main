@@ -10,8 +10,7 @@ export function Footer() {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img src={logo} alt="CDESF Logo" className="h-10 w-10" />
-              <span className="font-bold text-lg">CDESF</span>
+              <img src={logo} alt="CDESF Logo" className="h-40 w-40" />
             </div>
             <p className="text-sm text-gray-300">
               Supporting underprivileged students and encouraging excellence in Mathematics and Sciences.
@@ -63,7 +62,7 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>charlesdanielfoundation@gmail.com</span>
+                <span>hello@charlesdanielesf.org</span>
               </li>
             </ul>
           </div>
