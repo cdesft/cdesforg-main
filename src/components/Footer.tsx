@@ -74,7 +74,7 @@ export function Footer() {
               RC: 7343716 (Nigeria) | CN: 1602688-5 (Canada)
             </p>
             <p className="text-sm text-gray-300">
-              © {new Date().getFullYear()} Charles Daniel Educational Support Foundation - All rights reserved
+              © {new Date().getFullYear()} Charles Daniel Education Support Foundation - All rights reserved
             </p>
           </div>
         </div>

@@ -13,14 +13,14 @@ export default function Donate() {
   const bankAccounts = [
     {
       bank: "First Bank of Nigeria",
-      accountName: "Charles Daniel Educational Support Foundation",
+      accountName: "Charles Daniel Education Support Foundation",
       accountNumber: "3147893456",
       sortCode: "",
       currency: "NGN"
     },
     {
       bank: "Royal Bank of Canada (RBC)",
-      accountName: "Charles Daniel Educational Support Foundation",
+      accountName: "Charles Daniel Education Support Foundation",
       accountNumber: "1002-345-6789",
       transitNumber: "",
       institutionNumber: "",

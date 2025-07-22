@@ -51,14 +51,14 @@ export default function About() {
             <div>
               <Badge variant="outline" className="mb-4">Our Beginning</Badge>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                The Charles Daniel Educational Support Foundation
+                The Charles Daniel Education Support Foundation
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
                   Founded in 2023 in Nigeria and 2024 in Canada by the family of Charles Daniel and supported by educators, consultants, and social entrepreneurs, CDESF was established to support the course of reaching out to the less privileged child and encourage the gifted and high-performing children in basic and high schools around the world in general, specifically in Nigeria and Canada in Mathematics and Sciences.
                 </p>
                 <p>
-                  The establishment of the Charles Daniel Educational Support Foundation was stimulated by the drive, passion, and urge of Diepreye David Charles-Daniel; Nigerian born Nigeria and Global Mathematics Champion and multiple awards Winner to give back to society from his wealth of experience and other resources.
+                  The establishment of the Charles Daniel Education Support Foundation was stimulated by the drive, passion, and urge of Diepreye David Charles-Daniel; Nigerian born Nigeria and Global Mathematics Champion and multiple awards Winner to give back to society from his wealth of experience and other resources.
                 </p>
                 <p>
                   Diepreye David Charles-Daniel; the organization's President, graduated from Graceland International Schools, Port Harcourt Nigeria, and is currently a Software Engineering student of the University of Alberta, Canada.

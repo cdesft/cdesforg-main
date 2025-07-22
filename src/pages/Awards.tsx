@@ -9,7 +9,7 @@ export default function Awards() {
     {
       school: "Graceland International School",
       title: "Special Awards in recognition of High Performance in Extracurricular STEM Activities",
-      description: "Special Awards in recognition of High Performance in Extracurricular STEM Activities to deserving students of Graceland International School in Port Harcourt Nigeria by Charles Daniel Educational Support Foundation during the Class of 2024 Graduation and Awards Ceremony on the 24th July, 2024",
+      description: "Special Awards in recognition of High Performance in Extracurricular STEM Activities to deserving students of Graceland International School in Port Harcourt Nigeria by Charles Daniel Education Support Foundation during the Class of 2024 Graduation and Awards Ceremony on the 24th July, 2024",
       date: "July 24, 2024",
       location: "Port Harcourt, Nigeria",
       type: "Student Awards",
@@ -23,8 +23,8 @@ export default function Awards() {
     },
     {
       school: "Aladumo International School",
-      title: "CHARLES DANIEL EDUCATIONAL SUPPORT FOUNDATION AWARD 2024",
-      description: "CHARLES DANIEL EDUCATIONAL SUPPORT FOUNDATION AWARD 2024 to deserving students of Aladumo International School. The school was also specially awarded for Special Recognition. One of the pictures shows the Executive Director receiving award on behalf of the school.",
+      title: "CHARLES DANIEL Education Support Foundation AWARD 2024",
+      description: "CHARLES DANIEL Education Support Foundation AWARD 2024 to deserving students of Aladumo International School. The school was also specially awarded for Special Recognition. One of the pictures shows the Executive Director receiving award on behalf of the school.",
       date: "2024",
       location: "Nigeria",
       type: "School & Student Recognition",
@@ -39,7 +39,7 @@ export default function Awards() {
     {
       school: "Nigerian Airforce Secondary School",
       title: "2024 Speech, Award and Graduation Ceremony Recognition",
-      description: "In furtherance of our partnership with educational institutions, the Executive Director of Charles Daniel Educational Support Foundation was a Special Guest in the 2024 Nigerian Airforce Secondary school Speech, Award and Graduation Ceremony CDESF awarded some graduating students as well as the school.",
+      description: "In furtherance of our partnership with educational institutions, the Executive Director of Charles Daniel Education Support Foundation was a Special Guest in the 2024 Nigerian Airforce Secondary school Speech, Award and Graduation Ceremony CDESF awarded some graduating students as well as the school.",
       date: "2024",
       location: "Nigeria",
       type: "Partnership Award",
