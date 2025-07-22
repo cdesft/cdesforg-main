@@ -112,11 +112,11 @@ export default function Team() {
           </div>
 
           {teamMembers.map((member, index) => (
-            <Card key={index} className="max-w-4xl mb-4 mx-auto overflow-hidden">
-              <div className="grid lg:grid-cols-3 gap-0 max-h-[300px]">
-                {/* Photo */}
-                <div className="lg:col-span-1">
-                  <div className="aspect-square  lg:aspect-auto lg:h-full overflow-hidden">
+            <Card key={index} className="max-w-4xl mb-8 mx-auto overflow-hidden">
+              <div className="flex flex-col lg:flex-row">
+                {/* Photo - now full width on mobile */}
+                <div className="w-full lg:w-1/3">
+                  <div className="aspect-square lg:aspect-auto lg:h-full overflow-hidden">
                     <img 
                       src={member.image} 
                       alt={member.name}
@@ -125,28 +125,32 @@ export default function Team() {
                   </div>
                 </div>
                 
-                {/* Content */}
-                <div className="lg:col-span-2 p-8 lg:p-12">
-                  <div className="mb-6">
-                    <h3 className="text-3xl font-bold mb-2">{member.name}</h3>
-                    <p className="text-xl text-brand-primary font-semibold">{member.role}</p>
+                {/* Content - now full width on mobile */}
+                <div className="w-full lg:w-2/3 p-6 lg:p-8">
+                  <div className="mb-4">
+                    <h3 className="text-2xl lg:text-3xl font-bold mb-2">{member.name}</h3>
+                    <p className="text-lg lg:text-xl text-brand-primary font-semibold">{member.role}</p>
                   </div>
                   
-                  <p className="text-muted-foreground mb-6 leading-relaxed">
-                    {member.bio}
-                  </p>
+                  {member.bio && (
+                    <p className="text-muted-foreground mb-4 leading-relaxed">
+                      {member.bio}
+                    </p>
+                  )}
                   
-                  {member.achievements.length != 0 ? <div className="mb-6">
-                    <h4 className="font-semibold mb-3">Key Achievements:</h4>
-                    <ul className="space-y-2">
-                      {member.achievements.map((achievement, achievementIndex) => (
-                        <li key={achievementIndex} className="flex items-center text-sm text-muted-foreground">
-                          <div className="w-2 h-2 bg-brand-primary rounded-full mr-3 flex-shrink-0" />
-                          {achievement}
-                        </li>
-                      ))}
-                    </ul>
-                  </div> : ""}
+                  {member.achievements.length > 0 && (
+                    <div className="mb-4">
+                      <h4 className="font-semibold mb-2">Key Achievements:</h4>
+                      <ul className="space-y-2">
+                        {member.achievements.map((achievement, achievementIndex) => (
+                          <li key={achievementIndex} className="flex items-start text-sm text-muted-foreground">
+                            <div className="w-2 h-2 bg-brand-primary rounded-full mr-2 mt-2 flex-shrink-0" />
+                            {achievement}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                   
                   <div className="flex items-center space-x-4">
                     <Button variant="outline" size="sm" asChild>

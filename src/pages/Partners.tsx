@@ -310,7 +310,7 @@ export default function Partners() {
                 Start Partnership Discussion
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-brand-primary">
+            <Button asChild variant="outline" size="lg" className="border-white bg-transparent text-white hover:bg-white hover:text-brand-primary">
               <a href="mailto:charlesdanielfoundation@gmail.com">
                 Email Us Directly
               </a>
