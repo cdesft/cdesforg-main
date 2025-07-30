@@ -7,8 +7,18 @@ import { Mail, Linkedin, Users, Award, BookOpen, Heart } from "lucide-react"
 export default function Team() {
   const teamMembers = [
     {
+      name: "Diepreye David Charles-Daniel",
+      role: "President",
+      image: "https://i.ibb.co/pjPnbqkx/diepreye-davidcharles-daniel-1400x1750.jpg",
+      achievements: [
+        "Global Mathematics Champion & Multiple Award Winner",
+        "Software Engineering Student - University of Alberta",
+      ],
+      email: "director@charlesdanielesf.org"
+    },
+    {
       name: "Charles Daniel",
-      role: "Executive President/Founder",
+      role: "Founder & Executive Director",
       image: "https://i.ibb.co/pjF0kW0t/cd.jpg",
       bio: "Seasoned Project Management Consultant | African Investment Advisor.",
       achievements: [],
@@ -23,18 +33,8 @@ export default function Team() {
       email: "vp@charlesdanielesf.org"
     },
 
-    {
-      name: "Diepreye David Charles-Daniel",
-      role: "Executive Director, Canada",
-      image: "https://i.ibb.co/pjPnbqkx/diepreye-davidcharles-daniel-1400x1750.jpg",
-      achievements: [
-        "Global Mathematics Champion & Multiple Award Winner",
-        "Software Engineering Student - University of Alberta",
-      ],
-      email: "director@charlesdanielesf.org"
-    }
   ]
-
+  
   const supportTeam = [
     {
       category: "Educators",
