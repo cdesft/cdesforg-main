@@ -34,7 +34,7 @@ export default function Team() {
     },
 
   ]
-  
+
   const supportTeam = [
     {
       category: "Educators",
@@ -105,8 +105,8 @@ export default function Team() {
         <div className="container">
           <div className="text-center mb-12">
             <Badge variant="outline" className="mb-4">Leadership</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Founder & President</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <h2 className="text-3xl hidden md:text-4xl font-bold mb-4">Our Founder & President</h2>
+            <p className="text-xl hidden text-muted-foreground max-w-2xl mx-auto">
               The visionary leader who founded CDESF with a passion for giving back to society and transforming education.
             </p>
           </div>
