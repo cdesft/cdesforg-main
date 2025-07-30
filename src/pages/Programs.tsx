@@ -183,7 +183,7 @@ export default function Programs() {
               </Card>
               <Card className="text-center">
                 <CardContent className="pt-6">
-                  <div className="text-3xl font-bold text-brand-primary mb-2">3+</div>
+                  <div className="text-3xl font-bold text-brand-primary mb-2">8</div>
                   <div className="text-sm text-muted-foreground">Partner Schools</div>
                 </CardContent>
               </Card>

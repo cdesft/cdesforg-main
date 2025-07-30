@@ -8,7 +8,7 @@ export default function Home() {
   const stats = [
     { number: "2023", label: "Founded in Nigeria" },
     { number: "2024", label: "Registered in Canada" },
-    { number: "3+", label: "Partner Schools" },
+    { number: "8", label: "Partner Schools" },
     { number: "100+", label: "Students Supported" },
   ]
 
@@ -39,7 +39,7 @@ export default function Home() {
             <span className="text-yellow-300">Support Foundation</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-gray-200">
-            Bridging educational gaps and inspiring excellence in Mathematics and Sciences for underprivileged students worldwide.
+            Bridging educational gaps, encouraging and inspiring excellence in Science, Technolopgy, Engineering and Mathematics for students and pulpils worldwide.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-white text-brand-primary hover:bg-gray-100">
@@ -88,7 +88,7 @@ export default function Home() {
                     Mission
                   </h3>
                   <p className="text-muted-foreground">
-                    To bridge the educational gap for underprivileged students by providing resources, support, and opportunities for success.
+                    To advance education and bridge the educational gap for students by providing resources, support and opportunities for success.
                   </p>
                 </div>
                 <div>
@@ -146,7 +146,7 @@ export default function Home() {
                 <Users className="h-8 w-8 text-brand-primary mb-2" />
                 <CardTitle>Mentorship & Tutoring</CardTitle>
                 <CardDescription>
-                  One-on-one guidance and academic support from experienced educators and professionals.
+                  One-on-one guidance and academic support from experienced educators and professionals, focusing on Sciences, Technology, Engineering and Mathematics(STEM).
                 </CardDescription>
               </CardHeader>
             </Card>
